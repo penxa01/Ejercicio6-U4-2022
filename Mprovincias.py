@@ -1,5 +1,5 @@
 from Provincia import Provincia
-
+#Manejador de provincias, permite manejar una coleccion de provincias
 class ManejaProvincia(object):
     __Provincias=list
     def __init__(self):
@@ -15,7 +15,7 @@ class ManejaProvincia(object):
             i+=1
         if i<len(self.__Provincias):
             return i
-
+#Permite decodificar un archivo JSON que posea un manejador de provincias
     def toJSON(self):
         return dict(
             __class__ = self.__class__.__name__,

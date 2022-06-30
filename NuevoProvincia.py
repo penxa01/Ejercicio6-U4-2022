@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 from ProvinciaForm import ProvinciaForm
-
+#Ventana modal que permite ingresar una provincia
 class nuevoprovincia(tk.Toplevel):
     def __init__(self, padre):
         super().__init__(padre)
@@ -16,8 +16,6 @@ class nuevoprovincia(tk.Toplevel):
         self.paciente=self.form.CrearProvincia()
         if self.paciente:
             self.destroy()
-
-
 
     def show(self):
         self.grab_set()

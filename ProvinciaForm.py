@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 from Provincia import Provincia
+#Conjunto de entradas para ver, modificar los datos de una provincia
 class ProvinciaForm(ttk.Labelframe):
     
     __fields=("Nombre", "Capital", "Habitantes", "Partidos", "Temperatura", "Sensación", "Humedad")

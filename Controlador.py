@@ -4,7 +4,7 @@ from VistaProvincia import ProvinciasView
 from Mprovincias import ManejaProvincia
 from NuevoProvincia import nuevoprovincia
 from weather import Tiempo
-
+#Vincula la vista con el controlador
 class Controlador(object):
     __vista= ProvinciasView
     __seleccion=int

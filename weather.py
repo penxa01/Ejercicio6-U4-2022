@@ -1,6 +1,6 @@
 import requests
 import json
-
+#Recibe la API y decodifica los datos para poder ingresarlos en los atributos de la ClaseProvincia
 class Tiempo(object):
 
     def obtener(self, capital):

@@ -1,6 +1,7 @@
 import json
 from Provincia import Provincia
 from Mprovincias import ManejaProvincia
+#Permite decodificar, leer y grabar de/hacia archivos JSON
 
 class ObjectEncoder(object):
     def Guardar(self, elementos, archivo):

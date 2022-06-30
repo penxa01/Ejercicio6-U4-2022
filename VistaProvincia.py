@@ -5,7 +5,7 @@ from tkinter import ttk
 from ListaProvincia import ListaProvincia
 from UpdateProvincia import UpdateProvincia
 
-
+#Listado de provincias a la izquierda de la ventana
 class ProvinciasView(tk.Tk):
     def __init__(self):
         super().__init__()

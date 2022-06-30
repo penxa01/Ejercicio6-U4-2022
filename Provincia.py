@@ -1,4 +1,4 @@
-
+#crea la clase provincia con sus atributos y metodos, incluido un metodo que decodifique archivos JSON
 class Provincia(object):
     __nombre=str
     __capital=str
